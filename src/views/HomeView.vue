@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import TodoBox from '../components/TodoBox.vue'
+import Header from '../components/Header.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Header />
+    <TodoBox />
   </main>
 </template>
