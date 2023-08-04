@@ -24,5 +24,5 @@ const toggleLogin = () => {
     </div>
   </div>
   <p>{{ toggle }}</p>
-  <Login v-if="toggle" />
+  <Login v-if="toggle" :toggleLogin="toggleLogin" />
 </template>
